@@ -1,0 +1,1270 @@
+
+body {
+margin : 0;#af90ad
+padding : 0;
+font : 73% "lucida sans", tahoma, "Trebuchet MS", arial, verdana, sans-serif;
+color : #555;
+background : #f7f7f7;*/
+display=flex;
+/*overflow:visible;*/
+}
+#container {
+width : 99.5%;
+height: 100%;
+margin-left : auto;
+margin-right : auto;
+padding : 0;
+line-height : 2em;
+overflow-x:hidden;
+/*overflow-y:scroll;
+/*background : #f7f7f7; /*blue;*/
+}
+@media screen and (max-width: 10000px) and (min-device-width:320px){
+#banner {
+height : 13%;
+/*padding : 0;*/
+background :#08294d no-repeat;
+/*margin-right:0;*/
+color : #333;
+width:device-width;
+
+}
+#banner h1 {
+	margin : 0;
+	padding : 2.5% 0.5% 0.5% 4.5%;
+	background : transparent;
+	color : #000;
+	font-size : 2.5vw;
+}
+#banner h1 a {
+/*padding : 1.5% 0.5% 0.5% 4.5%;*/
+margin : 0;
+color : #fff;
+background : transparent;
+text-decoration : none;
+}
+#navlist {
+padding : 0.4% 0.5% 0.5% 10%;
+margin : 0 0 2% 0;
+text-align : left;
+letter-spacing : 3px;
+color : #fff;
+background : #476042;
+margin-bottom: 0.2%;
+}
+#navlist li {
+list-style : none;
+margin : 0 0 2% 0%;
+display : inline;
+}
+#navlist li a {
+padding : 5px 0.75em;
+margin : 0;
+color : #fff;
+background : #476042;
+text-decoration : none;
+font-size:1.2vh;
+}
+#navlist li a:link {
+color : #fff;
+background : #476042;
+}
+#navlist li a:visited {
+color : #fff;
+background : #476042;
+}
+#navlist li a:hover {
+color : #000;
+background : #7ABA2E;
+}
+#navlist li a#current {
+color : #fff;
+background : #7ABA2E;
+}
+.menu ul li {
+line-height : 1.8em;
+margin : 0 10px 0 0;
+padding : 0;
+list-style-type : square;
+color : #476042;
+background : inherit;
+font-size:1.2vh;
+}
+.menu ul li a {
+color : #f17c0b;
+background : inherit;
+}
+.menu ul li a:hover {
+color : #7ABA2E;
+background : inherit;
+}
+}
+#content {
+
+width: device-width;/*100%*/
+padding : 0 2% 0 2%;
+
+margin-left : 10%;
+margin-right : 10%;
+border-left : 0.1%  #333;
+border-right : 0.1%  #333;
+color : #555;
+background-color: #fff;
+overflow-y : hidden;
+/*background-color : #f7f7f7;*/
+/*background : url(images/main/test.jpg) repeat  ;*/
+
+}
+
+.home-containerRes {
+    display: block;
+    /*padding: 20px;*/
+    /*gap: 10px; /* Space between the boxes */*/
+    background-color : #fff;
+}
+
+.boxRes {
+    flex: 1; /* Make both boxes take equal space */
+    padding-right: 5%; /*30px;*/
+    padding-left:5%;/*30px;*/
+    /*padding-bottom: -50%; /*30px;*/
+    padding-top: 0px;
+    /*background-color: blue;/*#fff;*/
+    /*background-color: lightgray;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 20px; /* Radius of rounded corners */ */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */ */
+    
+}
+
+.boxRes p{ 
+
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+
+.boxRes h2{ 
+
+	font-size: 3em; 
+	color: #003300;
+}
+
+boxRes1 {
+    flex: 1; /* Make both boxes take equal space */
+    padding-right: 5%; /*30px;*/
+    padding-left:5%;/*30px;*/
+    padding-bottom: 10%; /*30px;*/
+    padding-top: 0px;
+    /*background-color: blue;/*#fff;*/
+    /*background-color: lightgray;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 20px; /* Radius of rounded corners */ */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */ */
+}
+
+.boxRes1 p{ 
+
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+
+.boxRes1 h2{ 
+
+	font-size: 3em; 
+	color: #003300;
+}
+.boxRes2 {
+    background-color: #fff;
+    color: white;
+}
+
+.home-container {
+    display: flex;
+    padding: 20px;
+    gap: 10px; /* Space between the boxes */
+}
+
+.box {
+    flex: 1; /* Make both boxes take equal space */
+    padding: 20px;
+    background-color: lightgray;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 20px; /* Radius of rounded corners */ */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow */ */
+}
+
+.box1 {
+    background-color: #F1F1F1;
+}
+
+.box2 {
+    background-color: #F1F1F1;
+    color: white;
+}
+
+.container {
+    display: flex;            /* This will make the panels sit side by side */
+    width: 100%;
+    height: 100vh;            /* Full viewport height */
+}
+
+.panel {
+    flex: 1;                  /* This makes each panel take equal width */
+    /*padding: 20px;*/
+    /*color: white;*/
+    height: 60%;             /* Ensure panels fill the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center content vertically */
+    text-align: center;
+    border-radius: 15px;
+    /*margin-left: 25px;*/
+    /*background-color: blue;*/
+}
+
+/* Left panel specific styles */
+.left-panel {
+    /*(background-color: #fcfaee;  /* Green */
+    /*border: 2px solid #e7e8d2;*/
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.right-panel {
+    /*(background-color: #fcfaee;  /* Green */
+    /*border: 2px solid #e7e8d2;*/
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+/* Right panel specific styles */
+.right-panel img {
+    /*background-color: white;  /* Blue */
+    width:100%;
+    height: 75%;
+    justify-content: center;
+}
+
+.carousel-group {
+    position: center;
+    width: 100%; /*254E58*/
+    overflow: hidden;
+}
+
+.carousel-group-images {
+    display: flex;
+    width: 100%; /* Adjust based on the number of images */
+    height: 30%;
+    animation: slide 10s linear infinite;
+}
+
+.carousel-group-images img {
+    width: 25%; /* Adjust based on the number of images */
+    height: auto;
+    flex-shrink: 0;
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); } /* Pause at the first image */
+    25% { transform: translateX(-25%); }
+    45% { transform: translateX(-25%); } /* Pause at the second image */
+    50% { transform: translateX(-50%); }
+    70% { transform: translateX(-50%); } /* Pause at the third image */
+    75% { transform: translateX(-75%); }
+    99.9999% { transform: translateX(-75%); } /* Pause at the fourth image */
+
+}
+
+/* PI Section Styling */
+
+@media screen and (max-width: 10000px) and (min-device-width:320px){/*768px) {*/
+
+	.pi-section {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10%;
+		margin-bottom: 5%;/*50px;*/
+	}
+
+	.pi-info {
+		text-align: left;
+		width: 100%;
+		/*max-width: 1500px;*/
+		padding-left : 5%;
+	}
+
+	.pi-photo img {
+		border-radius: 10%;
+		width: 100%; /*270px;*/
+		height: 180%; /*280px;*/
+		object-fit: cover;
+		border: 5px solid #ddd;
+	}
+
+	.pi-details {
+
+		margin-bottom: 0.8%;
+		margin-left: 20%;
+		padding-left : 10%;
+		/*padding-top : -1%;*/
+	}
+
+	.pi-details h4 {
+
+		font-size: 2em;
+		color:#990000;
+	}
+
+	.pi-details p {
+		font-size: 1.4em;
+		color: #003300;
+		line-height: 1.6;
+	}
+
+	/* Group Members Grid */
+	.group-members h3 {
+		font-size: 2.2em;
+		color: #333;
+		margin-bottom: 40px;
+	}
+
+	.members-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+		gap: 5%;
+		/*margin-top:40%;*/
+	}
+
+	.member {
+		background-color: #f9f9f9;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		padding: 20px;
+		text-align: center;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.member img {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		object-fit: cover;
+		border: 3px solid #ddd;
+		margin-bottom: 15px;
+	}
+
+	.member h4 {
+		font-size: 1.4em;
+		color: #990000;
+		margin-bottom: 10px;
+	}
+
+	.member p {
+		font-size: 1.2em;
+		color: #003300;
+		line-height: 1.5;
+	}
+
+	.member:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	}
+}
+/*#bg {
+padding : 0;
+background : url(images/4.jpg)  ;
+
+}*/
+
+/*#pic_detail
+{
+	width : 500px; 
+	float:left; 
+	padding-top:30px;
+}*/
+
+
+@media only screen and (min-device-width:1024px)  {
+  #pic_detail {
+   width : 750px; 
+	float:left; padding-left : 20px;
+	padding-top:30px;
+	margin:auto;
+  }    
+  #sir_detail{
+	  width : 800px; 
+  }
+ }
+ 
+ /*@media only screen and (min-device-width:481px)  and (max-device-width:1023px) {*/
+/*@media only screen and (min-device-width: 1024px) {*/
+@media screen and (max-width: 10000px) and (min-device-width:320px){/*768px) {*/
+	#pic_detail_research {
+   		width : 60%; 
+		float:left; 
+		padding-left : 6%;
+		padding-top:3%;
+		padding-right:2%;
+		padding-bottom: 1%;
+		margin:auto;
+
+  }
+  
+  #pic_detail_research1 {
+   		width : 60%; 
+		float:left; 
+		padding-left : 8%;
+		padding-top:3%;
+		padding-right:2%;
+		padding-bottom: 5%;
+		margin:auto;
+
+  }
+  
+  #pic_detail_research p{
+   		font-size: 1.2em;
+   		line-height: 1.1em;
+
+  }
+  
+  #pic_detail_research b{
+   		font-size: 1.2em;
+
+  }
+  
+  #pic_detail_research1 p{
+   		font-size: 1.2em;
+   		line-height: 1.1em;
+
+  }
+  
+  #pic_detail_research1 b{
+   		font-size: 1.2em;
+
+  }
+  #pic_detail_research_right {
+   width : 65%; 
+	float:right; 
+	padding-right : 3%;
+	padding-top:3%;
+	padding-left:2%;
+	margin:auto;
+  }
+  
+  #pic_detail_research_right p{
+   		font-size: 1.2em;
+   		line-height: 1.1em;
+
+  }
+  
+ #pic_detail_research_right b{
+   		font-size: 1.2em;
+
+  }
+  
+  #pic_im_research {
+  	width : 23%; 
+  	float:left; 
+  	padding-left : 4%;
+	padding-top:2%; 	
+  }
+  
+  #pic_im_research img{
+  	width : 120%;
+  	height: 120%;  	
+  }
+  
+  #pic_im_research1 {
+  	width : 23%; 
+  	float:left; 
+  	padding-left : 3%;
+	padding-top:0.5%;
+  }
+  
+  #pic_im_research1 img{
+  	width : 130%;
+  	height: 180%;
+  	padding-top:2%;
+  	/*padding-left : 25%;*/
+  }
+  
+  #pic_im_research_right {
+  	width : 23%; 
+  	float:right; 
+  	padding-right : 1%;
+	padding-top:2%; 	
+  }
+  
+  #pic_im_research_right img{
+  	width : 120%;
+  	height: 120%; 
+  }
+  
+}
+/*  #pic_detail_research {
+   width : 600px; 
+	float:left; padding-left : 130px;
+	padding-top:30px;
+	margin:auto;
+
+  }
+  #pic_detail_research_right {
+   width : 600px; 
+	float:right; padding-right : 20px;
+	padding-top:30px;
+	margin:auto;
+  }
+}*/
+
+@media only screen and (min-device-width:1024px) {
+/*  .carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.28);
+	margin-bottom: 0%;
+	 width:95%;
+	 margin: auto;
+}*/
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	margin: auto;
+}
+#pic_im
+{
+height:auto;
+width:47%;
+ margin:auto;
+ padding-top:15px;
+ padding-bottom:15px;
+}
+
+#pics
+{
+height:auto;
+width:90%;
+ margin:auto;
+ padding-top:15px;
+ padding-bottom:15px;
+}
+#pic_im_old
+{
+height:225px;
+width:30%;
+ margin:auto;
+ 
+}
+#pics_old
+{
+height:250px;
+width:90%;
+ margin:auto;
+ padding-top:15px;
+}
+#res_im
+{
+height:auto;
+width:48%;
+ margin:auto;
+ padding:auto;
+ justify-content:center;
+ text-align:center;
+ display:flex;
+ align-items:center;
+}
+#res
+{
+height:auto;
+ text-align:center;
+width:90%;
+ margin:auto;
+ padding-top:10px;
+ justify-content:center;
+ display:flex;
+}
+#desc
+{
+height:70px;
+width:90%;
+ margin:auto;
+  justify-content:center;
+  text-align:center;
+  padding-top:30px;
+}
+#desc_full
+{
+float: right;
+width:45%;
+text-align:center;
+font-family:arial narrow;
+font-size:15px;
+}
+#im
+{
+  float: left;
+	font-size:17;
+}
+#home_data
+{
+  float: right;
+	font-size:17;
+}
+#latest_news
+{
+	font-size:17;
+	padding-right : 2%;
+	padding-left : 2%;
+}
+#positions
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+#project
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+
+}
+@media only screen and (min-device-width:481px)  and (max-device-width:10000px)  {
+	#pic_detail {
+   		width : 75%; 
+		float:left; 
+		padding-top:30px;
+		margin:auto;
+	}    
+	#sir_detail{
+		width : 800px; 
+	}
+/*  .carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.28);
+	margin-bottom: 26px;
+	 width:75%;
+	 margin: auto;
+}*/
+
+	.carousel-inner {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		margin: auto;
+	}
+	
+	#pic_im {
+ 		height:300px;
+		width:47px;
+		padding-left:15px;
+		padding-right:15px;
+		margin:2px;
+		padding-top:10px; 
+	}
+  #pics {
+  height:300px;
+width:auto;
+ padding-left:15px; 
+ padding-right:15px;
+ margin:5px;
+ padding-top:15px;
+}
+#pic_im_old
+{
+height:200px;
+width:30%;
+ margin:auto;
+ 
+}
+#pics_old
+{
+height:215px;
+width:90%;
+ margin:auto;
+ padding-top:15px;
+}
+#res_im
+{
+height:auto;
+width:48%;
+ margin:auto;
+ padding:auto;
+ justify-content:center;
+ text-align:center;
+ display:flex;
+ align-items:center;
+}
+#res
+{
+height:auto;
+ text-align:center;
+width:90%;
+ margin:auto;
+ padding-top:8px;
+ justify-content:center;
+ display:flex;
+}
+#desc
+{
+height:30px;
+width:90%;
+ margin:auto;
+  justify-content:center;
+  text-align:center;
+  padding-top:10px;
+}
+#desc_full
+{
+width:45%;
+text-align:center;
+font-family:arial narrow;
+font-size:13px;
+}
+#latest_news
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+#positions
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+#project
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+
+}
+
+@media only screen and (max-device-width: 10000px) {
+
+  #pic_detail {
+   width : 270px; 
+	float:left; 
+	margin:auto;
+	padding-top:30px;
+  }    
+   #sir_detail{
+	  width : 570px;
+height:300px;
+  }
+
+#pic_im
+{
+height:auto;
+width:45%;
+ padding-left:5px; 
+ padding-right:5px;
+ margin:2px;
+ padding-top:5px;
+}
+#pics
+{
+height:46%;
+width:90%;
+ padding-left:5px; 
+ padding-right:5px;
+ margin:5px;
+ padding-top:5px;
+ padding-bottom:10px;
+}
+#pic_im_old
+{
+height:100%;
+width:30%;
+ margin:auto;
+ 
+}
+#pics_old
+{
+height:30%;
+width:90%;
+ margin:auto;
+ padding-top:15px;
+}
+#res_im
+{
+height:auto;
+width:48%;
+ margin:auto;
+ padding:auto;
+ justify-content:center;
+ text-align:center;
+ display:flex;
+ align-items:center;
+}
+#res
+{
+height:auto;
+ text-align:center;
+width:90%;
+ margin:auto;
+ padding-top:10px;
+ justify-content:center;
+ display:flex;
+}
+#desc
+{
+height:70px;
+width:90%;
+ margin:auto;
+  justify-content:center;
+  text-align:center;
+  padding-top:10px;
+}
+#desc_full
+{
+width:45%;
+text-align:center;
+font-family:arial narrow;
+font-size:10px;
+}
+#latest_news
+{
+	font-size:2.0em;
+	line-height: 1.3em;
+	
+}
+
+
+#positions
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+#project
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+}
+#publication
+{
+	font-size:2.2em; 
+	color: #003300;
+	line-height: 1.3em;
+	
+}
+
+.publication h2
+{
+	font-size:3em;
+	padding-left:5%;
+}
+
+.publication a
+{
+	color: hotpink;
+	background : inherit;
+}
+.publication p a:hover {
+color : #7ABA2E;
+background : inherit;
+}
+}
+
+/* Alumni Grid for Compact Layout */
+.alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Create responsive grid layout */
+    gap: 30px;  /* Space between items */
+    padding: 0;
+    max-width: 100%;
+    /*list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;*/
+}
+
+/* Alumni Item */
+.alumni-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10%;  /* Keep the padding reasonable */
+    text-align: left;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.alumni-item h4{
+  font-size: 1.8em;
+  color: #990000;
+}
+
+.alumni-item strong {
+    font-size: 1.8em;  /* Slightly smaller font for the name */
+    color: #003300;
+}
+
+.alumni-item span {
+    display: block;
+    margin-top: 5px;  /* Reduce space between name and position */
+    font-size: 1.7em;  /* Slightly smaller font size for current position */
+    color: #003300;
+}
+
+.alumni-item span1 {
+    display: block;
+    margin-top: 5px;  /* Reduce space between name and position */
+    font-size: 1.2em;  /* Slightly smaller font size for current position */
+    color: #1864EB;
+}
+
+/* Hover Effect for Alumni Item */
+.alumni-item:hover {
+    transform: translateY(-4px);  /* Slightly lift the card */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);  /* Slightly darker shadow on hover */
+}
+
+/* Responsive Design: Adjust for smaller screens */
+@media (max-device-width: 10000px)  {
+    .alumni h4 {
+        font-size: 2em;  /* Smaller heading for mobile */
+    }
+
+    .alumni-item {
+        padding: 2%;  /* Reduced padding for mobile */
+    }
+
+    .alumni-item strong {
+        font-size: 1.2em;  /* Smaller font for name on mobile */
+    }
+
+    .alumni-item span {
+        font-size: 1em;  /* Smaller font for position on mobile */
+    }
+
+#content p {
+margin : 0px;
+}
+#sidebar-a {
+float : left;
+height: 100%;
+width : 10%;
+/*margin-left : 5px;*/
+padding : 0 5px 0 5px;
+color : #666;
+background : #f7f7f7;
+}
+#sidebar-b {
+float : right;
+width : 10%;
+height: 35vh;
+/*margin : 0 5px 0 5px ;*/
+padding : 0 5px 0 5px;
+color : #333;
+background : #faf8e9;
+}
+}
+#footer {
+clear : both;
+padding : 0 0 0 10%;
+margin : 2px;
+background : #476042;
+color : #f7f7f7;
+}
+
+a {
+text-decoration : none;
+color : #fff;
+background : inherit;
+}
+a:hover {
+text-decoration : underline;
+color : #aaa;
+background : inherit;
+}
+a img {
+border : 0;
+}
+.border {
+padding : 10px;
+margin : 10px;
+border : 1px solid #476042;
+}
+.imgleft {
+float : left;
+border : 1px solid #90b905;
+margin : 5px 10px 10px 15px;
+padding : 5px;
+}
+h1 {
+margin : 20px;
+padding : 5px;
+font-size : 150%;
+letter-spacing : 3px;
+color : #fff;
+background : #476042;
+}
+h2 {
+padding-top : 2%;
+padding-left : 2%;
+font-size : 170%;
+text-transform : uppercase;
+letter-spacing : 4px;
+color : #476042;
+background : inherit;
+}
+h3 {
+padding : 3% 5% 0% 5%;
+text-transform : uppercase;
+font-size : 130%;
+color : #fff;
+background-color:#254E58;
+}
+h4 {
+padding : 5px;
+text-transform : uppercase;
+font-size : 110%;
+color : #fff;
+
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+.clear {
+clear : both;
+width : 100%;
+}
+.col3,.col3center {
+float: left;
+width: 30.5%;
+}
+.col3center {
+margin: 0 3%;
+}
+
+
+
+
+/*contact */
+
+/*.contact-container {
+    display: flex;            /* This will make the panels sit side by side */
+    /*width: 100%;
+    height: 100vh;            /* Full viewport height */
+    /*border : 1px solid #333;
+}*/
+
+/*.panelc {
+    flex: 1;                  /* This makes each panel take equal width */
+    /*padding: 20px;
+    /*color: white;*/
+    /*height: 500px;             /* Ensure panels fill the height */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center content vertically */
+    /*text-align: center;
+    border-radius: 15px;
+    margin-left: 25px;
+}*/
+
+/* Left panel specific styles */
+/*.left-panelc {
+    background-color: white;  /* Green */
+    /*border: 2px solid #e7e8d2;*/
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.left-panelc  p{
+    padding-left: 100px;
+    text-align: left;
+    font-size: 1.5em;
+    color: #333;
+}*/
+
+/* Right panel specific styles */
+/*.right-panelc {
+    /*background-color: white;  /* Blue */
+/*}*/
+
+
+
+/* Responsive Design: Stack panels on small screens */
+@media screen and (max-device-width: 10000px) {
+    .contact-container {
+        display: flex;
+        flex-direction: row;   /* Stack panels vertically on smaller screens */
+        width: 100%;
+        height: 80%;
+       /* border : 1px solid #333;*/
+    }
+
+    .panelc {
+    	flex:1;
+    	flex-direction: row;
+        width: 30%;              /* Ensure each panel takes full width */
+        height: 40%;
+        margin-bottom: 10px;      /* Space between stacked panels */
+        /*border : 1px solid #333;*/
+    }
+
+    /* Stack the top and bottom panels of the right panel vertically as well */
+    .right-panelc {
+        /*display: flex;
+        flex-direction: column;
+        /*padding-top:10%;
+        padding-right:10%;*/
+    }
+    
+    .left-panelc {
+        padding-top:5%;
+        padding-left:15%;
+    }
+    
+    .panelc h1 {
+    	text-align: center;
+    	font-size: 2.5em;
+    	color: #333;
+	}
+    .left-panelc p{
+        
+        font-size:3.2em; 
+		color: #003300;
+		line-height: 1.3em;
+		text-align: left;
+    }
+}
+
+.address{
+  /*padding-left: 200px;*/
+  /*padding-top: 10%;*/
+  /*padding-left: 10%;*/
+  
+}
+
+.map{
+  height: 100%;
+  width: 100%;
+  padding-top:7%;
+}
+
+.facIms {
+  width : 100%;
+  /*height: auto;*/
+  padding: 5%;
+}
+
+/* Carousel Section */
+
+    .carousel-container {
+      /*width: 100%;
+      height: 40%;
+      /*height: 100%;/*61% ;*/
+      /*overflow: hidden;*/
+      /*border : 1px solid #003300;*/
+      /*border-radius: 20px;*/
+      /*margin: 2% 0 0 20%;/*2% 2% 2% 1%;*/
+      position: center;
+      padding-top: 3%;
+      justify-content: center;
+      
+      /*padding: 2% 0 0 19%;*/
+    }
+    
+	.mySlides {display:none;}
+	
+    .carousel {
+      display: flex;
+      /*height: auto;/*35%;/*59% ; /* Set a fixed height for the carousel */
+      /*position: relative;*/
+      justify-content:center;
+      /*border-radius: 20px;*/
+      
+      gap: 38%;
+      margin: 0 auto; /* Ensure the carousel is centered horizontally within its container */
+    }
+
+	.carousel img {
+      width: auto;
+      height: 100%;
+      border-radius: 20px;
+      border : 1px solid #003300;
+      box-shadow: 0 5px 8px 5px #003300; /*rgba(0, 0, 0, 0.2);*/
+      /*object-fit: cover;*/
+      object-position: center;
+      
+    }
+    
+    .carousel-container-fac {
+      /*width: 480%;*/
+      max-width : 2500%;
+      /*height: 450px ;*/
+      overflow: hidden;
+      border-radius: 10px;
+      /*margin: 2% 0 0 20%;/*2% 2% 2% 1%;*/
+      margin : 0 auto;
+      padding-right: 5%;
+      display: flex;
+      
+      flex: 0 0 100%;
+      
+      &:hover .carousel-fac { animation-play-state: paused; }
+    }
+
+    .carousel-fac {
+      display: flex;
+      height: 350px; /* Set a fixed height for the carousel */
+      /*position: relative;*/
+      will-change : transform;
+      animation: slidefac 25s linear infinite;
+      gap: 2%;
+      padding-right : 2%;
+      margin: 0 auto; /* Ensure the carousel is centered horizontally within its container */
+     
+    }
+
+    .carousel-fac img {
+      width: auto;/*100%;*/
+      height: 100%;
+      border-radius: 10px;
+      /*object-fit: cover;*/
+      object-position: center;
+    }
+     /* Additional styles to make sure images don't overlap the caption */
+    .carousel-fac img {
+        position: relative;
+        z-index: 1; /* Ensure the image is behind the caption */
+    }
+
+    /*@keyframes slidefac {
+      0% {transform: translateX(0);}
+      10% {transform: translateX(0);}
+      15% {transform: translateX(-25.5%);}
+      25% { transform: translateX(-25.5%); }
+      28% {transform: translateX(-48.2%);}
+      40% { transform: translateX(-48.2%); }
+      42% {transform: translateX(-68.3%);}
+      55% { transform: translateX(-68.3%); }
+      57% {transform: translateX(-68.3%);}
+      70% { transform: translateX(-68.3%); }
+      72% { transform: translateX(-78.3%); }
+      84% { transform: translateX(-78.3%); }
+      86% { transform: translateX(-86.3%); }
+      99% {transform: translateX(-99.99999%);
+      100% {transform: translateX(-100%);}
+    }*/
+    
+    @keyframes slidefac {
+      0% {transform: translateX(0);}
+      100% {transform : translateX(-98%);}
+    }
+    }
+    
+    
+
+
+
+
